@@ -9,7 +9,7 @@ class SQLAlchemyRecipe(CompiledComponentsPythonRecipe):
 
     depends = ['setuptools', 'typing_extensions']
 
-    patches = ['zipsafe.patch', 'typing_extensions.patch']
+    patches = ['zipsafe.patch']
 
 
 recipe = SQLAlchemyRecipe()
